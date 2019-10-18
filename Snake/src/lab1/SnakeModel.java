@@ -135,6 +135,7 @@ public class SnakeModel extends GameModel {
 		do {
 			newFruitPos = new Position((int) (Math.random() * size.width),
 										(int) (Math.random() * size.height));
+                        
 		} while (!isPositionEmpty(newFruitPos));
 
 		// ... add a new fruit to the empty tile.
@@ -248,6 +249,8 @@ public class SnakeModel extends GameModel {
 			}
 			
 			addFruit();
+                        addFruit();
+                        addFruit();
 			score++;
 		}
 		
