@@ -1,3 +1,4 @@
+
 package lab1;
 
 import java.awt.BorderLayout;
@@ -50,7 +51,7 @@ public class GUIView extends JPanel {
 		this.gameFactory = factory;
 
 		// Set the background on the GameView
-		this.gameView.setBackground(Color.cyan);
+		this.gameView.setBackground(Color.CYAN);
 
 		// Set the layout on myself
 		setLayout(new BorderLayout());
